@@ -1,0 +1,214 @@
+@media (max-width: 600px) {
+  #img-st {
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+  }
+
+  .text-first {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .text-first h1 {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .text-first p {
+    font-size: 10px;
+    margin: 30px;
+  }
+
+  .text-first a {
+    border: rgb(0, 231, 0);
+    outline: none;
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 231, 0);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: 0 0 30px 15px rgb(0, 231, 0);
+  }
+
+  .nd {
+    height: 10vh;
+    margin-top: -5px;
+    color: black;
+    background-color: rgb(0, 231, 0);
+    text-align: center;
+    animation: ap 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .nd h1 {
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 76px;
+  }
+
+  .rd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+
+    margin-bottom: 140px;
+  }
+
+  .text-rd {
+    color: black;
+    background-color: rgb(0, 231, 0);
+    box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+
+    padding: 40px;
+    border-radius: 10% 40%;
+    animation: appear 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .tx {
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+    border: none;
+    text-align: center;
+    padding: 40px;
+    outline: none;
+    border-radius: 30% 10%;
+    animation: app 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+    padding: 40px;
+    margin-bottom: 10px;
+    animation: ap 5ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .four h1 {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .four p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .five {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    margin-bottom: 110px;
+  }
+
+  .text-five {
+    background-color: rgb(0, 231, 0);
+    box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+    width: 380px;
+    color: black;
+    padding: 50px;
+    border-radius: 10%;
+    animation: fivv 2ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .text-fivv {
+    background-color: rgb(0, 231, 0);
+    box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+    color: black;
+    padding: 50px;
+    width: 380px;
+    border-radius: 10%;
+    animation: fiv 2ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .six {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    animation: f 2ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+    padding-left: 100px;
+  }
+
+  @keyframes f {
+    from {
+      opacity: 0;
+      translate: 50px;
+    }
+
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  .seven {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 80px;
+    margin-bottom: 100px;
+    animation: ap 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .promo {
+    margin-top: 170px;
+    background-color: rgb(0, 231, 0);
+    box-shadow: 0 0 10px 8px rgba(0, 231, 0, 0.623);
+    color: black;
+    margin-bottom: 140px;
+    height: 40vh;
+    animation: ap 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0 cover 50%;
+  }
+
+  .promo h1 {
+    font-size: 10px;
+  }
+
+  #subpro a {
+    margin: 30px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
