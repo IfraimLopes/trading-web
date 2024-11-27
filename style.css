@@ -41,16 +41,16 @@ body {
 } */
 
 .text-first a {
-  border: rgb(0, 231, 0);
+  border: #0056b3; /* Azul escuro */
   outline: none;
   margin: 20px;
   text-decoration: none;
-  color: black;
-  background-color: rgb(0, 231, 0);
+  color: #ffffff; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
   padding: 20px;
   border-radius: 10px;
   font-weight: 600;
-  box-shadow: 0 0 30px 15px rgb(0, 231, 0);
+  box-shadow: 0 0 30px 15px #0056b3; /* Azul escuro */
 }
 
 @keyframes appear {
@@ -68,8 +68,9 @@ body {
 .nd {
   height: 15vh;
   margin-top: -5px;
-  color: black;
-  background-color: rgb(0, 231, 0);
+  color: #ffffff; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   text-align: center;
   animation: ap 1ms ease-in-out;
   animation-timeline: view();
@@ -99,13 +100,12 @@ span {
 }
 
 .text-rd {
-  color: black;
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
+  color: #ffffff; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   padding: 40px;
   border-radius: 10% 40%;
-  animation: appear 1ms ease-in-out;
+  animation: app 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0 cover 50%;
 }
@@ -123,15 +123,15 @@ span {
 }
 
 .tx {
-  color: black;
-  background-color: whitesmoke;
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+  color: #ffffff; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   border: none;
   text-align: center;
   padding: 40px;
   outline: none;
   border-radius: 40% 10%;
-  animation: app 1ms ease-in-out;
+  animation: appear 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0 cover 50%;
 }
@@ -162,11 +162,12 @@ span {
   display: flex;
   justify-content: center;
   gap: 10px;
-  border-bottom: 1px solid green;
-  border-top: 1px solid green;
+  border-bottom: 1px solid #008000; /* Verde */
+  border-top: 1px solid #008000; /* Verde */
   padding: 40px;
   margin-bottom: 10px;
   animation: ap 5ms ease-in-out;
+  animation: ap 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0 cover 50%;
 }
@@ -214,10 +215,9 @@ span {
 }
 
 .text-five {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   padding: 50px;
   border-radius: 10%;
   animation: fivv 2ms ease-in-out;
@@ -254,9 +254,9 @@ span {
 }
 
 .text-fivv {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   padding: 50px;
   border-radius: 10%;
   animation: fiv 2ms ease-in-out;
@@ -312,10 +312,9 @@ span {
 }
 
 .text-six {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -331,10 +330,9 @@ span {
 } */
 
 .text-sixx {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -345,10 +343,9 @@ span {
 }
 
 .text-si {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -390,13 +387,11 @@ span {
 }
 
 .text-sev {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 350px;
-
   width: 380px;
 }
 
@@ -405,18 +400,17 @@ span {
 }
 
 .text-seven {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 350px;
-
   width: 380px;
 }
 
 .text-seven span {
-  background-color: black;
-  color: green;
+  background-color: #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -427,17 +421,17 @@ span {
 }
 
 .text-sevenn {
-  color: white;
-
-  border: 1px solid green;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 5%;
   height: 350px;
   width: 380px;
 }
 
 .text-sevenn span {
-  background-color: green;
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -448,8 +442,8 @@ span {
 }
 
 .text-sev span {
-  background-color: black;
-  color: green;
+  background-color: #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -465,9 +459,9 @@ marquee img {
 
 .promo {
   margin-top: 170px;
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 8px rgba(0, 231, 0, 0.623);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #ffffff; /* Branco */
   margin-bottom: 140px;
   height: 50vh;
   animation: ap 1ms ease-in-out;
