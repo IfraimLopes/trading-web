@@ -9,7 +9,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000; /* Preto */
-  color: #FFFFFF; /* Branco */
+  color: #ffffff; /* Branco */
 }
 
 #img-st {
@@ -23,7 +23,7 @@ body {
   top: 50%;
   left: 33%;
   transform: translate(-50%, -30%);
-  color: #FFFFFF; /* Branco */
+  color: #ffffff; /* Branco */
 }
 
 .text-first h1 {
@@ -41,11 +41,7 @@ body {
   outline: none;
   margin: 20px;
   text-decoration: none;
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   background-color: #0056b3; /* Azul escuro */
   padding: 20px;
   border-radius: 10px;
@@ -68,11 +64,7 @@ body {
 .nd {
   height: 15vh;
   margin-top: -5px;
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   text-align: center;
@@ -102,22 +94,12 @@ span {
 }
 
 .text-rd {
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   padding: 40px;
   border-radius: 10% 40%;
-<<<<<<< HEAD
-  animation: app 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
-=======
   animation: appear 1ms ease-in-out;
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
 }
 
 @keyframes app {
@@ -133,11 +115,7 @@ span {
 }
 
 .tx {
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   border: none;
@@ -145,13 +123,7 @@ span {
   padding: 40px;
   outline: none;
   border-radius: 40% 10%;
-<<<<<<< HEAD
-  animation: appear 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
-=======
   animation: app 1ms ease-in-out;
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
 }
 
 .text-rd h1 {
@@ -185,12 +157,6 @@ span {
   padding: 40px;
   margin-bottom: 10px;
   animation: ap 5ms ease-in-out;
-<<<<<<< HEAD
-  animation: ap 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
-=======
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
 }
 
 .four h1 {
@@ -236,11 +202,7 @@ span {
 .text-five {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   padding: 50px;
   border-radius: 10%;
   animation: fivv 2ms ease-in-out;
@@ -277,11 +239,7 @@ span {
 .text-fivv {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   padding: 50px;
   border-radius: 10%;
   animation: fiv 2ms ease-in-out;
@@ -335,11 +293,7 @@ span {
 .text-six {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -352,11 +306,7 @@ span {
 .text-sixx {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -369,11 +319,7 @@ span {
 .text-si {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -415,11 +361,7 @@ span {
 .text-sev {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 350px;
   width: 380px;
@@ -432,11 +374,7 @@ span {
 .text-seven {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 350px;
   width: 380px;
@@ -444,11 +382,7 @@ span {
 
 .text-seven span {
   background-color: #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -461,11 +395,7 @@ span {
 .text-sevenn {
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 5%;
   height: 350px;
   width: 380px;
@@ -473,11 +403,7 @@ span {
 
 .text-sevenn span {
   background-color: #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -489,11 +415,7 @@ span {
 
 .text-sev span {
   background-color: #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -511,11 +433,7 @@ marquee img {
   margin-top: 170px;
   background-color: #0056b3; /* Azul escuro */
   box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
-<<<<<<< HEAD
   color: #ffffff; /* Branco */
-=======
-  color: #FFFFFF; /* Branco */
->>>>>>> f0a5e1784ed5f28b6f54fe375bbb2821af040c60
   margin-bottom: 140px;
   height: 50vh;
   animation: ap 1ms ease-in-out;
@@ -548,7 +466,7 @@ marquee img {
 #subpro a {
   margin: 30px;
   text-decoration: none;
-  background-color: #F5F5F5; /* Branco esfumaçado */
+  background-color: #f5f5f5; /* Branco esfumaçado */
   padding: 20px;
   border-radius: 5px;
 }
@@ -557,7 +475,6 @@ marquee img {
   transition: all 1s;
   background-color: rgba(245, 245, 245, 0.466);
   padding: 20px;
-  color: #FFFFFF; /* Branco */
+  color: #ffffff; /* Branco */
   border-radius: 20px;
 }
-

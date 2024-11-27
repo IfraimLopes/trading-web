@@ -24,24 +24,24 @@
   }
 
   .text-first a {
-    border: #007BFF;
+    border: #007bff;
     outline: none;
     margin: 25px;
     text-decoration: none;
     color: white;
-    background-color: #007BFF;
+    background-color: #007bff;
     padding: 10px;
     border-radius: 10px;
     font-weight: 600;
     font-size: 12px;
-    box-shadow: 0 0 30px 15px #007BFF;
+    box-shadow: 0 0 30px 15px #007bff;
   }
 
   .nd {
     height: 10vh;
     margin-top: -5px;
     color: white;
-    background-color: #007BFF;
+    background-color: #007bff;
     text-align: center;
     animation: ap 1ms ease-in-out;
     animation-timeline: view();
@@ -64,8 +64,8 @@
 
   .text-rd {
     color: white;
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     padding: 40px;
     border-radius: 10% 40%;
     animation: appear 1ms ease-in-out;
@@ -76,7 +76,7 @@
   .tx {
     color: black;
     background-color: #f8f9fa;
-    box-shadow: 0 0 10px 5px #007BFF;
+    box-shadow: 0 0 10px 5px #007bff;
     border: none;
     text-align: center;
     padding: 40px;
@@ -93,8 +93,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    border-bottom: 1px solid #007BFF;
-    border-top: 1px solid #007BFF;
+    border-bottom: 1px solid #007bff;
+    border-top: 1px solid #007bff;
     padding: 40px;
     margin-bottom: 10px;
     animation: ap 5ms ease-in-out;
@@ -124,8 +124,8 @@
   }
 
   .text-five {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     width: 320px;
     color: white;
     padding: 50px;
@@ -136,8 +136,8 @@
   }
 
   .text-fivv {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     color: white;
     padding: 50px;
     width: 320px;
@@ -161,8 +161,8 @@
   }
 
   .text-six {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     color: white;
     border-radius: 5%;
     height: 400px;
@@ -170,8 +170,8 @@
   }
 
   .text-sixx {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     color: white;
     border-radius: 5%;
     height: 400px;
@@ -204,8 +204,8 @@
   }
 
   .text-sev {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     color: white;
     border-radius: 5%;
     height: 340px;
@@ -214,15 +214,15 @@
 
   .text-sevenn {
     color: white;
-    border: 1px solid #007BFF;
+    border: 1px solid #007bff;
     border-radius: 5%;
     height: 340px;
     width: 330px;
   }
 
   .text-seven {
-    background-color: #007BFF;
-    box-shadow: 0 0 10px 5px #007BFF;
+    background-color: #007bff;
+    box-shadow: 0 0 10px 5px #007bff;
     color: white;
     border-radius: 5%;
     height: 340px;
@@ -231,7 +231,7 @@
 
   .promo {
     margin-top: 170px;
-    background-color: #007BFF;
+    background-color: #007bff;
     box-shadow: 0 0 10px 8px rgba(0, 123, 255, 0.623);
     color: white;
     margin-bottom: 140px;
