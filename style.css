@@ -8,8 +8,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-  color: white;
+  background-color: #000000; /* Preto */
+  color: #FFFFFF; /* Branco */
 }
 
 #img-st {
@@ -23,7 +23,7 @@ body {
   top: 50%;
   left: 33%;
   transform: translate(-50%, -30%);
-  color: white;
+  color: #FFFFFF; /* Branco */
 }
 
 .text-first h1 {
@@ -35,22 +35,18 @@ body {
   font-size: 20px;
   margin: 30px;
 }
-/* 
-.text-first p strong {
-  font-weight: 500;
-} */
 
 .text-first a {
-  border: rgb(0, 231, 0);
+  border: #0056b3; /* Azul escuro */
   outline: none;
   margin: 20px;
   text-decoration: none;
-  color: black;
-  background-color: rgb(0, 231, 0);
+  color: #FFFFFF; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
   padding: 20px;
   border-radius: 10px;
   font-weight: 600;
-  box-shadow: 0 0 30px 15px rgb(0, 231, 0);
+  box-shadow: 0 0 30px 15px #0056b3; /* Azul escuro */
 }
 
 @keyframes appear {
@@ -68,12 +64,11 @@ body {
 .nd {
   height: 15vh;
   margin-top: -5px;
-  color: black;
-  background-color: rgb(0, 231, 0);
+  color: #FFFFFF; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   text-align: center;
   animation: ap 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 .nd h1 {
@@ -99,15 +94,12 @@ span {
 }
 
 .text-rd {
-  color: black;
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
+  color: #FFFFFF; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   padding: 40px;
   border-radius: 10% 40%;
   animation: appear 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes app {
@@ -123,17 +115,15 @@ span {
 }
 
 .tx {
-  color: black;
-  background-color: whitesmoke;
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
+  color: #FFFFFF; /* Branco */
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
   border: none;
   text-align: center;
   padding: 40px;
   outline: none;
   border-radius: 40% 10%;
   animation: app 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 .text-rd h1 {
@@ -162,13 +152,11 @@ span {
   display: flex;
   justify-content: center;
   gap: 10px;
-  border-bottom: 1px solid green;
-  border-top: 1px solid green;
+  border-bottom: 1px solid #008000; /* Verde */
+  border-top: 1px solid #008000; /* Verde */
   padding: 40px;
   margin-bottom: 10px;
   animation: ap 5ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 .four h1 {
@@ -185,8 +173,6 @@ span {
   margin: 80px;
   text-align: center;
   animation: ap 2ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes aaa {
@@ -214,15 +200,12 @@ span {
 }
 
 .text-five {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   padding: 50px;
   border-radius: 10%;
   animation: fivv 2ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes fivv {
@@ -254,14 +237,12 @@ span {
 }
 
 .text-fivv {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   padding: 50px;
   border-radius: 10%;
   animation: fiv 2ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes fiv {
@@ -295,8 +276,6 @@ span {
   margin-top: 180px;
   margin-bottom: 50px;
   animation: f 2ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes f {
@@ -312,10 +291,9 @@ span {
 }
 
 .text-six {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -325,16 +303,10 @@ span {
   list-style: none;
 }
 
-/* 
-.text-six li{
-  font-size: 10px;
-} */
-
 .text-sixx {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -345,10 +317,9 @@ span {
 }
 
 .text-si {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 400px;
   width: 300px;
@@ -374,8 +345,6 @@ span {
   gap: 80px;
   margin-bottom: 100px;
   animation: ap 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes ap {
@@ -390,13 +359,11 @@ span {
 }
 
 .text-sev {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 350px;
-
   width: 380px;
 }
 
@@ -405,18 +372,17 @@ span {
 }
 
 .text-seven {
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 5px rgb(0, 231, 0);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 350px;
-
   width: 380px;
 }
 
 .text-seven span {
-  background-color: black;
-  color: green;
+  background-color: #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -427,17 +393,17 @@ span {
 }
 
 .text-sevenn {
-  color: white;
-
-  border: 1px solid green;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 5%;
   height: 350px;
   width: 380px;
 }
 
 .text-sevenn span {
-  background-color: green;
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -448,8 +414,8 @@ span {
 }
 
 .text-sev span {
-  background-color: black;
-  color: green;
+  background-color: #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   border-radius: 40%;
   font-size: 70px;
   margin: 20px;
@@ -459,20 +425,18 @@ marquee img {
   width: 250px;
   height: 200px;
   margin: 10px 40px;
-  border: 1px solid green;
+  border: 1px solid #008000; /* Verde */
   border-radius: 20%;
 }
 
 .promo {
   margin-top: 170px;
-  background-color: rgb(0, 231, 0);
-  box-shadow: 0 0 10px 8px rgba(0, 231, 0, 0.623);
-  color: black;
+  background-color: #0056b3; /* Azul escuro */
+  box-shadow: 0 0 10px 5px #0056b3; /* Azul escuro */
+  color: #FFFFFF; /* Branco */
   margin-bottom: 140px;
   height: 50vh;
   animation: ap 1ms ease-in-out;
-  animation-timeline: view();
-  animation-range: cover 0 cover 50%;
 }
 
 @keyframes ap {
@@ -502,7 +466,7 @@ marquee img {
 #subpro a {
   margin: 30px;
   text-decoration: none;
-  background-color: whitesmoke;
+  background-color: #F5F5F5; /* Branco esfumaçado */
   padding: 20px;
   border-radius: 5px;
 }
@@ -511,6 +475,7 @@ marquee img {
   transition: all 1s;
   background-color: rgba(245, 245, 245, 0.466);
   padding: 20px;
-  color: white;
+  color: #FFFFFF; /* Branco */
   border-radius: 20px;
 }
+
